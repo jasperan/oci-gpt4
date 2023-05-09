@@ -1,6 +1,6 @@
-#  OCI Compute Instance
+#  Creating an OCI Compute Instance
 
-**1. Navigate to https://www.oracle.com/cloud/sign-in.html?redirect_uri=https%3A%2F%2Fcloud.oracle.com%2F**
+**1. Navigate to https://www.oracle.com/cloud/sign-in.html**
 
 **2. Click "Next"
 Click this button.

@@ -30,7 +30,7 @@ pip install pygpt4all
 ## Run or create new Python file
 
 ```bash
-curl -O  https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin
+curl -O  https://gpt4all.io/models/ggml-gpt4all-l13b-snoozy.bin
 ```
 
 ## Now, download the repository
