@@ -9,7 +9,7 @@ config = {
     'max_length': 1000,
     'min_length': 50
 }
-result = model.generate("Once upon a time, ", n_predict=55, new_text_callback=new_text_callback, config=config)
+result = model.generate("Once upon a time, ", n_predict=55, new_text_callback=new_text_callback)
 print(result)
 
 '''

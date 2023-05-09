@@ -6,13 +6,10 @@ prompt_list = ['What are the french presidents in order?', 'Give me 10 ideas to 
 
 while True:
     try:
-        prompt = 'What are the french presidents in order'
-        if prompt == '':
-            continue
         print(f"AI:", end='')
         for x in prompt_list:
             for token in model.generate(x):
                 print(f"{token}", end='', flush=True)
-        print()
+        print('\n')
     except KeyboardInterrupt:
         break

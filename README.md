@@ -48,7 +48,7 @@ m.prompt('write me a story about a lonely computer')
 ```
 # nomic-ai
 
-## Run or create new Python file
+## Running a GPT with `pygpt4all` (Advanced)
 ```python
 from pygpt4all.models.gpt4all import GPT4All
 
@@ -58,3 +58,6 @@ print(text, end="")
 model = GPT4All('./models/ggml-gpt4all-l13b-snoozy.bin')
 model.generate("Once upon a time, ", n_predict=55, new_text_callback=new_text_callback)
 ```
+This method is more advanced because it requires you to manually download whichever model checkpoint you want to use, but still achievable.
+
+For more information on how to download or get these `.bin` files, refer to the [full lab guide](files/guide.md).
